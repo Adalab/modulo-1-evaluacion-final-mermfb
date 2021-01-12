@@ -1,63 +1,87 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Evaluación final mermfb</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evaluación final</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
   </head>
-
-  <body>
-    <div class="page">
-      <header class="header">
-        <nav></nav>
-        <div class="hero">
-          <h1 class="herotitle">Anonymous Proxy</h1>
-          <h4 class="claim">In hac habitasse platea dictumst.</h4>
-          <div></div>
+  <body id="home">
+    <header class="header">
+      <div class="header__menu">
+        <a href="https://adalab.es/" target="_blank"
+          ><img src="./assets/images/ico-menu.svg" alt="Menu" />
+        </a>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero__img"></div>
+        <div class="hero__claim">
+          <h1 class="hero__claim--title">Anonymous proxy</h1>
+          <h4 class="hero__claim--subtitle">
+            In hac habitasse platea dictumst.
+          </h4>
         </div>
-      </header>
-
-      <main class="main">
-        <section>
-          <small>Insomnia tips</small>
-          <h2>Looking trough a window</h2>
-          <p>
-            Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
-            luctus ex diam nec lectus. Vivamus semper sodales rutrum.
+        <a class="hero__button" href="index.html#3reasons"><div></div></a>
+      </section>
+      <section class="firstsection">
+        <h5 class="firstsection__coment">Insomnia tips</h5>
+        <h2 class="firstsection__title">Looking through a window</h2>
+        <p class="firstsection__p">
+          Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis,
+          at luctus ex diam nec lectus. Vivamus semper sodales rutrum.
+        </p>
+        <div class="firstsection__button">Go</div>
+      </section>
+      <section class="secondsection" id="3reasons">
+        <h2 class="secondsection__title">3 reasons to purchase</h2>
+        <div class="secondsection__1">
+          <h3 class="secondsection__1--title">Ut sed metus</h3>
+          <p class="secondsection__1--p">
+            Lorem ipsum dolor sit amet, consecteur.
           </p>
-          <div>Go</div>
-        </section>
-        <section>
-          <h2>3 reasons to purchase</h2>
-          <div>
-            <h3>Ut sed metus</h3>
-            <p>Lorem ipsum dolor sit amet, consecteur.</p>
-          </div>
-          <div>
-            <h3>Curabitur ac erat</h3>
-            <p>Mauris mattis urna quis lorem molestie.</p>
-          </div>
-          <div>
-            <h3>Morbi dictum</h3>
-            <p>Aliquam in dolor et dolor tincidunt.</p>
-          </div>
-          <div>More reasons</div>
-          <div></div>
-        </section>
-      </main>
-
-      <footer class="footer">
-        <div>Articles Books Events Reasons Tips</div>
-        <div>Twitter Instagram Mastodon.social</div>
-        <small>©2021 we ❤︎ components</small>
-      </footer>
-
-    </div>
+        </div>
+        <div class="secondsection__2">
+          <h3 class="secondsection__2--title">Curabitur ac erat</h3>
+          <p class="secondsection__2--p">
+            Mauris mattis urna quis lorem molestie.
+          </p>
+        </div>
+        <div class="secondsection__3">
+          <h3 class="secondsection__3--title">Morbi dictum</h3>
+          <p class="secondsection__3--p">
+            Aliquam in dolor et dolor tincidunt.
+          </p>
+        </div>
+        <div class="secondsection__button">More reasons</div>
+      </section>
+    </main>
+    <footer class="footer">
+      <a class="footer__button" href="index.html#home"><div></div></a>
+      <div class="footer__div--1">
+        <a class="link" href="https://adalab.es/" target="_blank">Articles</a>
+        <a class="link" href="https://adalab.es/" target="_blank">Books</a>
+        <a class="link" href="https://adalab.es/" target="_blank">Events</a>
+        <a class="link" href="https://adalab.es/" target="_blank">Reasons</a>
+        <a class="link" href="https://adalab.es/" target="_blank">Tips</a>
+      </div>
+      <div class="footer__div--2">
+        <a class="link" href="https://adalab.es/" target="_blank">Twitter</a>
+        <a class="link" href="https://adalab.es/" target="_blank">Instagram</a>
+        <a class="link" href="https://adalab.es/" target="_blank"
+          >Mastodon.social</a
+        >
+      </div>
+      <small class="footer__small"
+        ><span class="footer__small--copy">©2021</span> we
+        <span class="fotter__small--heart">❤︎</span> components</small
+      >
+    </footer>
   </body>
 </html>
