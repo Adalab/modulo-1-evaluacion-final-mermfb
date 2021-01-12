@@ -14,7 +14,7 @@
     }
   }
 
-  .firstsection__coment {
+  &__coment {
     font-family: var(--fontfamily);
     text-transform: capitalize;
     font-size: 14px;
@@ -29,7 +29,7 @@
     }
   }
 
-  .firstsection__title {
+  &__title {
     font-family: var(--fontfamily);
     font-weight: var(--titleweight);
     text-transform: capitalize;
@@ -51,7 +51,7 @@
     }
   }
 
-  .firstsection__p {
+  &__p {
     font-family: var(--fontfamily);
     font-size: 18px;
     line-height: 1.67;
@@ -66,7 +66,7 @@
     }
   }
 
-  .firstsection__button {
+  &__button {
     width: 76px;
     height: 45px;
     border-radius: 22.5px;
@@ -102,88 +102,7 @@
   align-items: center;
   padding: 30px 0 60px 0;
   justify-items: center;
-}
-.secondsection__title {
-  font-family: var(--fontfamily);
-  font-weight: var(--titleweight);
-  font-size: 24px;
-  line-height: 1.25;
-  text-align: center;
-  color: var(--black);
-  text-transform: capitalize;
-}
-
-.secondsection__1 {
-  padding: 0 70px 0 70px;
-}
-
-.secondsection__1--title {
-  font-family: var(--fontfamily);
-  font-weight: var(--titleweight);
-  font-size: 18px;
-  line-height: 1.67;
-  text-align: center;
-  color: var(--black);
-}
-.secondsection__1--p {
-  font-family: var(--fontfamily);
-  font-size: 18px;
-  line-height: 1.67;
-  text-align: center;
-}
-
-.secondsection__2 {
-  padding: 0 70px 0 70px;
-}
-
-.secondsection__2--title {
-  font-family: var(--fontfamily);
-  font-weight: var(--titleweight);
-  font-size: 18px;
-  line-height: 1.67;
-  text-align: center;
-  color: var(--black);
-}
-.secondsection__2--p {
-  font-family: var(--fontfamily);
-  font-size: 18px;
-  line-height: 1.67;
-  text-align: center;
-}
-
-.secondsection__3 {
-  padding: 0 70px 0 70px;
-}
-
-.secondsection__3--title {
-  font-family: var(--fontfamily);
-  font-weight: var(--titleweight);
-  font-size: 18px;
-  line-height: 1.67;
-  text-align: center;
-  color: var(--black);
-}
-.secondsection__3--p {
-  font-family: var(--fontfamily);
-  font-size: 18px;
-  line-height: 1.67;
-  text-align: center;
-}
-.secondsection__button {
-  text-align: center;
-  height: 45px;
-  width: 184px;
-  border-radius: 22.5px;
-  background-color: var(--orange);
-  font-family: var(--fontfamily);
-  font-size: 20px;
-  font-weight: var(--buttonweight);
-  line-height: 2.25;
-  color: var(--white);
-}
-
-@media all and (min-width: 768px) {
-  .secondsection {
+  @media all and (min-width: 768px) {
     height: 397px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -191,66 +110,137 @@
     column-gap: 27.7px;
     padding: 30px 40px 60px 35.7px;
   }
-
-  .secondsection__title {
-    font-size: 26px;
-    line-height: 1.73;
-    grid-column: 1 / 4;
-    grid-row: 1 / 2;
-  }
-
-  .secondsection__1 {
-    padding: 0;
-  }
-
-  .secondsection__1--title {
-    font-size: 24px;
-    line-height: 1.25;
-  }
-  .secondsection__1--p {
-    font-size: 20px;
-    line-height: 1.5;
-  }
-  .secondsection__2 {
-    padding: 0;
-  }
-
-  .secondsection__2--title {
-    font-size: 24px;
-    line-height: 1.25;
-  }
-  .secondsection__2--p {
-    font-size: 20px;
-    line-height: 1.5;
-  }
-  .secondsection__3 {
-    padding: 0;
-  }
-
-  .secondsection__3--title {
-    font-size: 24px;
-    line-height: 1.25;
-  }
-  .secondsection__3--p {
-    font-size: 20px;
-    line-height: 1.5;
-  }
-
-  .secondsection__button {
-    height: 45px;
-    width: 210px;
-    grid-column: 1 / 4;
-    grid-row: 3/ 4;
-  }
-}
-@media all and (min-width: 1200px) {
-  .secondsection {
+  @media all and (min-width: 1200px) {
     height: 427px;
     column-gap: 26.2px;
     padding: 60px 85px;
   }
-  .secondsection__button {
+
+  &__title {
+    font-family: var(--fontfamily);
+    font-weight: var(--titleweight);
+    font-size: 24px;
+    line-height: 1.25;
+    text-align: center;
+    color: var(--black);
+    text-transform: capitalize;
+    @media all and (min-width: 768px) {
+      font-size: 26px;
+      line-height: 1.73;
+      grid-column: 1 / 4;
+      grid-row: 1 / 2;
+    }
+  }
+
+  &__1 {
+    padding: 0 70px 0 70px;
+    @media all and (min-width: 768px) {
+      padding: 0;
+    }
+
+    &--title {
+      font-family: var(--fontfamily);
+      font-weight: var(--titleweight);
+      font-size: 18px;
+      line-height: 1.67;
+      text-align: center;
+      color: var(--black);
+      @media all and (min-width: 768px) {
+        font-size: 24px;
+        line-height: 1.25;
+      }
+    }
+    &--p {
+      font-family: var(--fontfamily);
+      font-size: 18px;
+      line-height: 1.67;
+      text-align: center;
+      @media all and (min-width: 768px) {
+        font-size: 20px;
+        line-height: 1.5;
+      }
+    }
+  }
+
+  &__2 {
+    padding: 0 70px 0 70px;
+    @media all and (min-width: 768px) {
+      padding: 0;
+    }
+
+    &--title {
+      font-family: var(--fontfamily);
+      font-weight: var(--titleweight);
+      font-size: 18px;
+      line-height: 1.67;
+      text-align: center;
+      color: var(--black);
+      @media all and (min-width: 768px) {
+        font-size: 24px;
+        line-height: 1.25;
+      }
+    }
+    &--p {
+      font-family: var(--fontfamily);
+      font-size: 18px;
+      line-height: 1.67;
+      text-align: center;
+      @media all and (min-width: 768px) {
+        font-size: 20px;
+        line-height: 1.5;
+      }
+    }
+  }
+
+  &__3 {
+    padding: 0 70px 0 70px;
+    @media all and (min-width: 768px) {
+      padding: 0;
+    }
+
+    &--title {
+      font-family: var(--fontfamily);
+      font-weight: var(--titleweight);
+      font-size: 18px;
+      line-height: 1.67;
+      text-align: center;
+      color: var(--black);
+      @media all and (min-width: 768px) {
+        font-size: 24px;
+        line-height: 1.25;
+      }
+    }
+    &--p {
+      font-family: var(--fontfamily);
+      font-size: 18px;
+      line-height: 1.67;
+      text-align: center;
+      @media all and (min-width: 768px) {
+        font-size: 20px;
+        line-height: 1.5;
+      }
+    }
+  }
+  &__button {
+    text-align: center;
     height: 45px;
-    width: 255px;
+    width: 184px;
+    border-radius: 22.5px;
+    background-color: var(--orange);
+    font-family: var(--fontfamily);
+    font-size: 20px;
+    font-weight: var(--buttonweight);
+    line-height: 2.25;
+    color: var(--white);
+    @media all and (min-width: 768px) {
+      height: 45px;
+      width: 210px;
+      grid-column: 1 / 4;
+      grid-row: 3/ 4;
+    }
+    @media all and (min-width: 1200px) {
+      height: 45px;
+      width: 255px;
+    }
   }
 }
