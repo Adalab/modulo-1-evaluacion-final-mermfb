@@ -31,20 +31,20 @@
   &__claim {
     position: absolute;
     bottom: 174px;
+    max-width: 730px;
     @media all and (min-width: 1200px) {
       position: absolute;
       bottom: 88px;
-      max-width: 730px;
     }
 
     &--title {
-      font-family: var(--fontfamily);
-      font-weight: var(--titleweight);
+      font-family: $fontfamily;
+      font-weight: $titleweight;
       text-transform: uppercase;
       font-size: 42px;
       line-height: 1.31;
       text-align: center;
-      color: var(--white);
+      color: $white;
       text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
       @media all and (min-width: 768px) {
         font-size: 80px;
@@ -57,7 +57,7 @@
     }
 
     &--subtitle {
-      font-family: var(--fontfamily);
+      font-family: $fontfamily;
       font-size: 16px;
       font-weight: normal;
       text-align: center;
@@ -71,7 +71,7 @@
   &__button {
     height: 45px;
     width: 45px;
-    background-color: var(--white);
+    background-color: $white;
     border-radius: 50%;
     background-image: url(../images/ico-scroll-down.svg);
     background-position: center;

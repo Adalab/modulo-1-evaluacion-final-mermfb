@@ -1,68 +1,57 @@
 /*FIRST SECTION*/
 
 .firstsection {
-  background-color: var(--white);
+  background-color: $white;
   padding: 30px 15px 45px 15px;
   @media all and (min-width: 768px) {
-    .firstsection {
-      padding: 30px 39px 60px 39px;
-    }
+    padding: 30px 39px 60px 39px;
   }
+
   @media all and (min-width: 1200px) {
-    .firstsection {
-      padding: 60px 275px;
-    }
+    padding: 60px 275px 60px 275px;
   }
 
   &__coment {
-    font-family: var(--fontfamily);
+    font-family: $fontfamily;
     text-transform: capitalize;
     font-size: 14px;
     line-height: 2.14;
     text-align: left;
-    color: var(--lightblue);
+    color: $lightblue;
     @media all and (min-width: 768px) {
-      .firstsection__coment {
-        font-size: 16px;
-        line-height: 1.88;
-      }
+      font-size: 16px;
+      line-height: 1.88;
     }
   }
 
   &__title {
-    font-family: var(--fontfamily);
-    font-weight: var(--titleweight);
+    font-family: $fontfamily;
+    font-weight: $titleweight;
     text-transform: capitalize;
     font-size: 24px;
     line-height: 1.25;
     text-align: left;
-    color: var(--black);
+    color: $black;
     @media all and (min-width: 768px) {
-      .firstsection__title {
-        font-size: 26px;
-        line-height: 1.73;
-      }
+      font-size: 26px;
+      line-height: 1.73;
     }
     @media all and (min-width: 1200px) {
-      .firstsection__title {
-        font-size: 32px;
-        line-height: 1.41;
-      }
+      font-size: 32px;
+      line-height: 1.41;
     }
   }
 
   &__p {
-    font-family: var(--fontfamily);
+    font-family: $fontfamily;
     font-size: 18px;
     line-height: 1.67;
     color: var(--grey);
     margin: 15px 0 30px 0;
     @media all and (min-width: 768px) {
-      .firstsection__p {
-        font-size: 20px;
-        font-weight: normal;
-        line-height: 1.5;
-      }
+      font-size: 20px;
+      font-weight: normal;
+      line-height: 1.5;
     }
   }
 
@@ -70,22 +59,18 @@
     width: 76px;
     height: 45px;
     border-radius: 22.5px;
-    border: solid 2px var(--orange);
-    font-family: var(--fontfamily);
+    border: solid 2px $orange;
+    font-family: $fontfamily;
     font-size: 20px;
-    font-weight: var(--buttonweight);
+    font-weight: $buttonweight;
     line-height: 2.25;
     text-align: center;
-    color: var(--orange);
+    color: $orange;
     @media all and (min-width: 768px) {
-      .firstsection__button {
-        width: 91px;
-      }
+      width: 91px;
     }
     @media all and (min-width: 1200px) {
-      .firstsection__button {
-        width: 160px;
-      }
+      width: 160px;
     }
   }
 }
@@ -94,7 +79,7 @@
 
 .secondsection {
   width: 100%;
-  background-color: var(--secondsection);
+  background-color: $secondsection;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 2fr 2fr 2fr 1fr;
@@ -117,12 +102,12 @@
   }
 
   &__title {
-    font-family: var(--fontfamily);
-    font-weight: var(--titleweight);
+    font-family: $fontfamily;
+    font-weight: $titleweight;
     font-size: 24px;
     line-height: 1.25;
     text-align: center;
-    color: var(--black);
+    color: $black;
     text-transform: capitalize;
     @media all and (min-width: 768px) {
       font-size: 26px;
@@ -139,19 +124,19 @@
     }
 
     &--title {
-      font-family: var(--fontfamily);
-      font-weight: var(--titleweight);
+      font-family: $fontfamily;
+      font-weight: $titleweight;
       font-size: 18px;
       line-height: 1.67;
       text-align: center;
-      color: var(--black);
+      color: $black;
       @media all and (min-width: 768px) {
         font-size: 24px;
         line-height: 1.25;
       }
     }
     &--p {
-      font-family: var(--fontfamily);
+      font-family: $fontfamily;
       font-size: 18px;
       line-height: 1.67;
       text-align: center;
@@ -169,19 +154,19 @@
     }
 
     &--title {
-      font-family: var(--fontfamily);
-      font-weight: var(--titleweight);
+      font-family: $fontfamily;
+      font-weight: $titleweight;
       font-size: 18px;
       line-height: 1.67;
       text-align: center;
-      color: var(--black);
+      color: $black;
       @media all and (min-width: 768px) {
         font-size: 24px;
         line-height: 1.25;
       }
     }
     &--p {
-      font-family: var(--fontfamily);
+      font-family: $fontfamily;
       font-size: 18px;
       line-height: 1.67;
       text-align: center;
@@ -199,19 +184,19 @@
     }
 
     &--title {
-      font-family: var(--fontfamily);
-      font-weight: var(--titleweight);
+      font-family: $fontfamily;
+      font-weight: $titleweight;
       font-size: 18px;
       line-height: 1.67;
       text-align: center;
-      color: var(--black);
+      color: $black;
       @media all and (min-width: 768px) {
         font-size: 24px;
         line-height: 1.25;
       }
     }
     &--p {
-      font-family: var(--fontfamily);
+      font-family: $fontfamily;
       font-size: 18px;
       line-height: 1.67;
       text-align: center;
@@ -226,12 +211,12 @@
     height: 45px;
     width: 184px;
     border-radius: 22.5px;
-    background-color: var(--orange);
-    font-family: var(--fontfamily);
+    background-color: $orange;
+    font-family: $fontfamily;
     font-size: 20px;
-    font-weight: var(--buttonweight);
+    font-weight: $buttonweight;
     line-height: 2.25;
-    color: var(--white);
+    color: $white;
     @media all and (min-width: 768px) {
       height: 45px;
       width: 210px;
