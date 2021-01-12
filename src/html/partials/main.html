@@ -1,3 +1,47 @@
 <main>
+  <!--hero-->
   <include src="./hero.html"></include>
+
+  <!--first section-->
+  <section class="firstsection">
+    <h5 class="firstsection__coment">Insomnia tips</h5>
+    <h2 class="firstsection__title">Looking through a window</h2>
+    <p class="firstsection__p">
+      Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
+      luctus ex diam nec lectus. Vivamus semper sodales rutrum.
+    </p>
+    <div class="firstsection__button">Go</div>
+  </section>
+
+  <!-- second section-->
+
+  <section class="secondsection" id="3reasons">
+    <h2 class="secondsection__title">3 reasons to purchase</h2>
+    <include
+      src="./reasons.html"
+      subsection="secondsection__1"
+      subsectiontitle="secondsection__1--title"
+      title="Ut sed metus"
+      subsectionp="secondsection__1--p"
+      text="Lorem ipsum dolor sit amet, consecteur."
+    ></include>
+    <include
+      src="./reasons.html"
+      subsection="secondsection__2"
+      subsectiontitle="secondsection__2--title"
+      title="Curabitur ac erat"
+      subsectionp="secondsection__2--p"
+      text="Mauris mattis urna quis lorem molestie."
+    ></include>
+
+    <include
+      src="./reasons.html"
+      subsection="secondsection__3"
+      subsectiontitle="secondsection__3--title"
+      title="Morbi dictum"
+      subsectionp="secondsection__3--p"
+      text="Aliquam in dolor et dolor tincidunt."
+    ></include>
+    <div class="secondsection__button">More reasons</div>
+  </section>
 </main>
