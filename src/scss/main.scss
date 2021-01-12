@@ -4,6 +4,7 @@
 @import "components/links";
 @import "layout/page";
 @import "layout/header";
+@import "layout/hero";
 @import "layout/footer";
 @import "pages/index";
 
@@ -30,112 +31,6 @@
 .link {
   text-decoration: none;
   color: var(--white);
-}
-
-/*HEADER*/
-
-.header__menu {
-  position: fixed;
-  top: 0;
-  z-index: 100;
-  width: 44px;
-  height: 44px;
-  background-color: var(--headerbackground);
-  text-align: center;
-  padding-top: 15px;
-}
-
-/*HERO*/
-
-.hero {
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero__img {
-  height: 100%;
-  width: 100%;
-  background-image: url(../images/cover.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  z-index: -1;
-}
-
-.hero__claim {
-  position: absolute;
-  bottom: 174px;
-}
-
-.hero__claim--title {
-  font-family: var(--fontfamily);
-  font-weight: var(--titleweight);
-  text-transform: uppercase;
-  font-size: 42px;
-  line-height: 1.31;
-  text-align: center;
-  color: var(--white);
-  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-}
-.hero__claim--subtitle {
-  font-family: var(--fontfamily);
-  font-size: 16px;
-  font-weight: normal;
-  text-align: center;
-  color: var(--white);
-}
-.hero__button {
-  height: 45px;
-  width: 45px;
-  background-color: var(--white);
-  border-radius: 50%;
-  background-image: url(../images/ico-scroll-down.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  position: absolute;
-  bottom: 53px;
-}
-
-@media all and (min-width: 768px) {
-  .hero {
-    height: 768px;
-  }
-
-  .hero__img {
-    height: 768px;
-    top: 0;
-  }
-  .hero__claim {
-    position: static;
-  }
-  .hero__claim--title {
-    font-size: 80px;
-    line-height: 1.33;
-  }
-  .hero__claim--subtitle {
-    font-size: 24px;
-  }
-}
-@media all and (min-width: 1200px) {
-  .hero__claim {
-    position: absolute;
-    bottom: 88px;
-    max-width: 730px;
-  }
-  .hero__claim--title {
-    font-size: 100px;
-    line-height: 1.32;
-  }
-  .hero__button {
-    bottom: 13px;
-  }
 }
 
 /*FIRST SECTION*/
