@@ -32,6 +32,10 @@
     position: absolute;
     bottom: 174px;
     max-width: 730px;
+    @media all and (min-width: 768px) {
+      position: absolute;
+      bottom: 120px;
+    }
     @media all and (min-width: 1200px) {
       position: absolute;
       bottom: 88px;
@@ -49,6 +53,7 @@
       @media all and (min-width: 768px) {
         font-size: 80px;
         line-height: 1.33;
+        padding-bottom: 10px;
       }
       @media all and (min-width: 1200px) {
         font-size: 100px;
@@ -78,6 +83,9 @@
     background-repeat: no-repeat;
     position: absolute;
     bottom: 53px;
+    @media all and (min-width: 1200px) {
+      bottom: 45px;
+    }
     @media all and (min-width: 1200px) {
       bottom: 13px;
     }
