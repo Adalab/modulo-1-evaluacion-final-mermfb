@@ -66,9 +66,10 @@
     line-height: 2.25;
     text-align: center;
     color: $orange;
-    transition: color ease 0.5s;
+    box-shadow: rgba(0, 0, 0, 0);
+    transition: box-shadow ease 0.5s;
     &:hover {
-      color: $black;
+      box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
     }
     @media all and (min-width: 768px) {
       width: 91px;
