@@ -122,6 +122,22 @@
     }
   }
 
+  @mixin title {
+    font-family: $fonttitle;
+    font-weight: $titleweight;
+    font-size: 18px;
+    line-height: 1.67;
+    text-align: center;
+    color: $black;
+  }
+
+  @mixin paragraph {
+    font-family: $fontfamily;
+    font-size: 18px;
+    line-height: 1.67;
+    text-align: center;
+  }
+
   &__1 {
     padding: 0 70px 0 70px;
     @media all and (min-width: 768px) {
@@ -129,22 +145,14 @@
     }
 
     &--title {
-      font-family: $fonttitle;
-      font-weight: $titleweight;
-      font-size: 18px;
-      line-height: 1.67;
-      text-align: center;
-      color: $black;
+      @include title;
       @media all and (min-width: 768px) {
         font-size: 24px;
         line-height: 1.25;
       }
     }
     &--p {
-      font-family: $fontfamily;
-      font-size: 18px;
-      line-height: 1.67;
-      text-align: center;
+      @include paragraph;
       @media all and (min-width: 768px) {
         font-size: 20px;
         line-height: 1.5;
@@ -159,22 +167,14 @@
     }
 
     &--title {
-      font-family: $fonttitle;
-      font-weight: $titleweight;
-      font-size: 18px;
-      line-height: 1.67;
-      text-align: center;
-      color: $black;
+      @include title;
       @media all and (min-width: 768px) {
         font-size: 24px;
         line-height: 1.25;
       }
     }
     &--p {
-      font-family: $fontfamily;
-      font-size: 18px;
-      line-height: 1.67;
-      text-align: center;
+      @include paragraph;
       @media all and (min-width: 768px) {
         font-size: 20px;
         line-height: 1.5;
@@ -189,22 +189,14 @@
     }
 
     &--title {
-      font-family: $fonttitle;
-      font-weight: $titleweight;
-      font-size: 18px;
-      line-height: 1.67;
-      text-align: center;
-      color: $black;
+      @include title;
       @media all and (min-width: 768px) {
         font-size: 24px;
         line-height: 1.25;
       }
     }
     &--p {
-      font-family: $fontfamily;
-      font-size: 18px;
-      line-height: 1.67;
-      text-align: center;
+      @include paragraph;
       @media all and (min-width: 768px) {
         font-size: 20px;
         line-height: 1.5;
