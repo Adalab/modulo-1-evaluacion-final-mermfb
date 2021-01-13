@@ -8,28 +8,3 @@
 @import "layout/sections";
 @import "layout/footer";
 @import "pages/index";
-
-:root {
-  --fontfamily: "Roboto", sans-serif;
-  --titleweight: bold;
-  --buttonweight: 500;
-  --headerbackground: rgb(2, 113, 188);
-  --footerbackground: rgb(48, 66, 104);
-  --white: rgb(255, 255, 255);
-  --secondsection: rgb(239, 249, 255);
-  --lightblue: rgb(140, 203, 234);
-  --black: rgb(0, 0, 0);
-  --grey: rgb(74, 74, 74);
-  --orange: rgb(242, 96, 2);
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.link {
-  text-decoration: none;
-  color: var(--white);
-}

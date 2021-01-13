@@ -1,51 +1,53 @@
 /*FOOTER*/
 
-.footerbutton {
+.footercontainer {
+  width: 100%;
+  height: 465px;
+  background-color: $footerbackground;
+  padding: 0 86px 45px 87px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media all and (min-width: 768px) {
+    height: 100%;
+    padding: 0 39px 45px 39px;
+  }
+  @media all and (min-width: 1200px) {
+    padding: 0 370px 45px 370px;
+  }
+}
+
+.button {
   height: 45px;
   width: 45px;
-  background-color: var(--white);
+  background-color: $white;
   border-radius: 50%;
   background-image: url(../images/ico-arrow.svg);
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  bottom: 35px;
-  @media all and (min-width: 768px) {
-    /*position: absolute;
-    left: 46vw;
-    bottom: -46vh;*/
-  }
-  @media all and (min-width: 1200px) {
-    /*position: absolute;
-    bottom: 8vh;*/
-  }
+  bottom: 25px;
 }
 
 .footer {
   width: 100%;
-  height: 465px;
-  background-color: var(--footerbackground);
-  padding: 0 86px 45px 87px;
+  height: 360px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  font-family: var(--fontfamily);
+  font-family: $fontfamily;
   font-size: 16px;
   line-height: 1.88;
   text-transform: uppercase;
   text-align: center;
-  color: var(--white);
+  color: $white;
   @media all and (min-width: 768px) {
-    height: 240px;
-    padding: 45px 39px 45px 39px;
+    height: 150px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     text-align: left;
-  }
-  @media all and (min-width: 1200px) {
-    padding: 45px 370px 45px 370px;
   }
 
   &__div {
@@ -80,7 +82,7 @@
       display: block;
     }
     &--heart {
-      color: var(--orange);
+      color: $orange;
     }
   }
 }
