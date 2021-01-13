@@ -52,7 +52,7 @@
   justify-content: space-between;
   align-items: center;
   font-family: $fontfamily;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.88;
   text-transform: uppercase;
   text-align: center;
@@ -86,7 +86,7 @@
   }
 
   &__small {
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 2.14;
     text-transform: none;
     @media all and (min-width: 768px) {

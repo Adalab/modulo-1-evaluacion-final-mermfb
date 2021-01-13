@@ -14,12 +14,12 @@
   &__coment {
     font-family: $fontfamily;
     text-transform: capitalize;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 2.14;
     text-align: left;
     color: $lightblue;
     @media all and (min-width: 768px) {
-      font-size: 16px;
+      font-size: 1rem;
       line-height: 1.88;
     }
   }
@@ -28,28 +28,28 @@
     font-family: $fonttitle;
     font-weight: $titleweight;
     text-transform: capitalize;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 1.25;
     text-align: left;
     color: $black;
     @media all and (min-width: 768px) {
-      font-size: 26px;
+      font-size: 1.625rem;
       line-height: 1.73;
     }
     @media all and (min-width: 1200px) {
-      font-size: 32px;
+      font-size: 2rem;
       line-height: 1.41;
     }
   }
 
   &__p {
     font-family: $fontfamily;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 1.67;
     color: var(--grey);
     margin: 15px 0 30px 0;
     @media all and (min-width: 768px) {
-      font-size: 20px;
+      font-size: 1.25rem;
       font-weight: normal;
       line-height: 1.5;
     }
@@ -61,7 +61,7 @@
     border-radius: 22.5px;
     border: solid 2px $orange;
     font-family: $fontfamily;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: $buttonweight;
     line-height: 2.25;
     text-align: center;
@@ -109,13 +109,13 @@
   &__title {
     font-family: $fonttitle;
     font-weight: $titleweight;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 1.25;
     text-align: center;
     color: $black;
     text-transform: capitalize;
     @media all and (min-width: 768px) {
-      font-size: 26px;
+      font-size: 1.625rem;
       line-height: 1.73;
       grid-column: 1 / 4;
       grid-row: 1 / 2;
@@ -125,7 +125,7 @@
   @mixin title {
     font-family: $fonttitle;
     font-weight: $titleweight;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 1.67;
     text-align: center;
     color: $black;
@@ -133,7 +133,7 @@
 
   @mixin paragraph {
     font-family: $fontfamily;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 1.67;
     text-align: center;
   }
@@ -149,14 +149,14 @@
     &--title {
       @include title;
       @media all and (min-width: 768px) {
-        font-size: 24px;
+        font-size: 1.5rem;
         line-height: 1.25;
       }
     }
     &--p {
       @include paragraph;
       @media all and (min-width: 768px) {
-        font-size: 20px;
+        font-size: 1.25rem;
         line-height: 1.5;
       }
     }
@@ -173,14 +173,14 @@
     &--title {
       @include title;
       @media all and (min-width: 768px) {
-        font-size: 24px;
+        font-size: 1.5rem;
         line-height: 1.25;
       }
     }
     &--p {
       @include paragraph;
       @media all and (min-width: 768px) {
-        font-size: 20px;
+        font-size: 1.25rem;
         line-height: 1.5;
       }
     }
@@ -197,14 +197,14 @@
     &--title {
       @include title;
       @media all and (min-width: 768px) {
-        font-size: 24px;
+        font-size: 1.5rem;
         line-height: 1.25;
       }
     }
     &--p {
       @include paragraph;
       @media all and (min-width: 768px) {
-        font-size: 20px;
+        font-size: 1.25rem;
         line-height: 1.5;
       }
     }
@@ -216,7 +216,7 @@
     border-radius: 22.5px;
     background-color: $orange;
     font-family: $fontfamily;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: $buttonweight;
     line-height: 2.25;
     color: $white;
