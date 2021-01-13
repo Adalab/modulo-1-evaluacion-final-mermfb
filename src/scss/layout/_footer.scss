@@ -1,5 +1,26 @@
 /*FOOTER*/
 
+.footerbutton {
+  height: 45px;
+  width: 45px;
+  background-color: var(--white);
+  border-radius: 50%;
+  background-image: url(../images/ico-arrow.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: 35px;
+  @media all and (min-width: 768px) {
+    /*position: absolute;
+    left: 46vw;
+    bottom: -46vh;*/
+  }
+  @media all and (min-width: 1200px) {
+    /*position: absolute;
+    bottom: 8vh;*/
+  }
+}
+
 .footer {
   width: 100%;
   height: 465px;
@@ -27,26 +48,6 @@
     padding: 45px 370px 45px 370px;
   }
 
-  &__button {
-    height: 45px;
-    width: 45px;
-    background-color: var(--white);
-    border-radius: 50%;
-    background-image: url(../images/ico-arrow.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    bottom: 35px;
-    @media all and (min-width: 768px) {
-      position: absolute;
-      left: 46vw;
-      bottom: -46vh;
-    }
-    @media all and (min-width: 1200px) {
-      position: absolute;
-      bottom: 8vh;
-    }
-  }
   &__div {
     &--1 {
       display: flex;
