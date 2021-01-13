@@ -38,13 +38,14 @@
     position: relative;
     bottom: 35px;
     @media all and (min-width: 768px) {
-      position: absolute;
+      /*position: absolute;
       left: 46vw;
-      bottom: -46vh;
+      bottom: -46vh;*/
+      transform: translate(30px 30px);
     }
     @media all and (min-width: 1200px) {
-      position: absolute;
-      bottom: 8vh;
+      /*position: absolute;
+      bottom: 8vh;*/
     }
   }
   &__div {
