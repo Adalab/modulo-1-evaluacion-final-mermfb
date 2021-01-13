@@ -142,6 +142,8 @@
     padding: 0 70px 0 70px;
     @media all and (min-width: 768px) {
       padding: 0;
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
     }
 
     &--title {
@@ -164,6 +166,8 @@
     padding: 0 70px 0 70px;
     @media all and (min-width: 768px) {
       padding: 0;
+      grid-column: 2/ 3;
+      grid-row: 2 / 3;
     }
 
     &--title {
@@ -186,6 +190,8 @@
     padding: 0 70px 0 70px;
     @media all and (min-width: 768px) {
       padding: 0;
+      grid-column: 3/ 4;
+      grid-row: 2 / 3;
     }
 
     &--title {
