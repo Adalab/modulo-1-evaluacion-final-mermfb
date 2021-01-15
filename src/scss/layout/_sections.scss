@@ -236,3 +236,20 @@
     }
   }
 }
+.section3 {
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  background-color: $orange;
+  color: $white;
+  padding: 0 20px 0 20px;
+  &__subtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  @media all and (min-width: 768px) {
+    display: flex;
+  }
+}
